@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.data.cassandra.core.mapping.Table"/>
+    <fullyQualifiedTypeName name="org.springframework.data.cassandra.core.mapping.PrimaryKeyColumn"/>
+    <fullyQualifiedTypeName name="org.springframework.data.cassandra.core.cql.PrimaryKeyType"/>
+    <fullyQualifiedTypeName name="org.springframework.data.cassandra.core.cql.Ordering"/>
+    <fullyQualifiedTypeName name="org.springframework.data.cassandra.core.mapping.MapId"/>
+    <fullyQualifiedTypeName name="org.springframework.data.cassandra.repository.MapIdCassandraRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.ApplicationArguments"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.ApplicationRunner"/>
+    <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
+    <fullyQualifiedTypeName name="kr.spring.main.repo.CyclistCategoryRepository"/>
+    <fullyQualifiedTypeName name="kr.spring.main.entity.CyclistCategory"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

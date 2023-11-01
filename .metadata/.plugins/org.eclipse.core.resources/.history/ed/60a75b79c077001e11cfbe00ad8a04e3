@@ -1,0 +1,24 @@
+package kr.spring.main;
+
+import org.springframework.boot.ApplicationRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import kr.spring.main.repo.CyclistCategoryRepository;
+
+@SpringBootApplication
+public class CassandraApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CassandraApplication.class, args);
+	}
+	
+	@Bean
+	public ApplicationRunner applicationRunner(CyclistCategoryRepository cyclistCategoryRepository) {
+		return args -> {
+			System.out.println(cyclistCategoryRepository);
+		};
+	}
+
+}

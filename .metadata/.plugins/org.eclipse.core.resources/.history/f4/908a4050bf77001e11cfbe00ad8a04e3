@@ -1,0 +1,6 @@
+package kr.spring.main.repo;
+
+import org.springframework.data.cassandra.repository.MapIdCassandraRepository;
+
+public interface CyclistCategoryRepository extends MapIdCassandraRepository<T> {
+}

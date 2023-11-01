@@ -1,0 +1,5 @@
+package kr.spring.main.repo;
+
+public interface CyclistCategoryRepository {
+
+}

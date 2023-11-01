@@ -1,0 +1,12 @@
+package kr.spring.main.entity;
+
+import java.util.UUID;
+
+public class CyclistCategory {
+	
+	private String category;
+	private int points;
+	private UUID id;
+	private String lastname;
+	
+}
